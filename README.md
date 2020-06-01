@@ -32,4 +32,6 @@ Learning list of ROS :
 - [ ] Workcell XACRO
 - [ ] Transforms using TF
 
-source : http://wiki.ros.org/
+source : 
+- http://wiki.ros.org/
+- https://industrial-training-master.readthedocs.io/en/melodic/
