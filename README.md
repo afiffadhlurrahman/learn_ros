@@ -26,8 +26,8 @@ Learning list of ROS :
 - [X] Topics and Messages
 - [X] Services
 - [ ] Actions -> Action server and client
-- [ ] Launch Files
-- [ ] Parameters
+- [X] Launch Files
+- [X] Parameters
 - [ ] Intro to URDF
 - [ ] Workcell XACRO
 - [ ] Transforms using TF
