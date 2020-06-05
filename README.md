@@ -31,6 +31,20 @@ Learning list of ROS :
 - [ ] Intro to URDF
 - [ ] Workcell XACRO
 - [ ] Transforms using TF
+- [ ] Build a MoveIt! Package
+- [ ] Motion Planning using C++
+- [ ] Into to Descartes
+- [ ] Into to Perception
+- [ ] Advance Descartes Path Planning
+- [ ] Building a Perception Pipeline
+- [ ] Introduction to STOMP
+- [ ] Simple PCL Interface for python
+- [ ] Opencv Image Processing (Python)
+- [ ] Documentation Generation
+- [ ] Unit Testing
+- [ ] Using rqt tools for analysis
+- [ ] ROS Style Guide and ros_lint
+
 
 source : 
 - http://wiki.ros.org/
