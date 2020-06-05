@@ -11,5 +11,6 @@ export CMAKE_PREFIX_PATH="/home/afif/catkin_ws/devel/.private/myworkcell_core:$C
 export LD_LIBRARY_PATH="/home/afif/catkin_ws/devel/.private/myworkcell_core/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/afif/catkin_ws/devel/.private/myworkcell_core/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/afif/catkin_ws/build/myworkcell_core"
+export PYTHONPATH="/home/afif/catkin_ws/devel/.private/myworkcell_core/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/afif/catkin_ws/devel/.private/myworkcell_core/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/afif/catkin_ws/src/myworkcell_core:$ROS_PACKAGE_PATH"

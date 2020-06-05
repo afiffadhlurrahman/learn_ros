@@ -1,0 +1,19 @@
+[01m[K/home/afif/catkin_ws/src/myworkcell_core/src/myworkcell_node.cpp:[m[K In member function ‘[01m[Kvoid ScanNPlan::start()[m[K’:
+[01m[K/home/afif/catkin_ws/src/myworkcell_core/src/myworkcell_node.cpp:17:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_frame[m[K’ was not declared in this scope
+     srv.request.base_frame = [01;31m[Kbase_frame[m[K;
+                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/myworkcell_core/src/myworkcell_node.cpp:17:30:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbasename[m[K’
+     srv.request.base_frame = [01;36m[Kbase_frame[m[K;
+                              [01;36m[K^~~~~~~~~~[m[K
+                              [32m[Kbasename[m[K
+[01m[K/home/afif/catkin_ws/src/myworkcell_core/src/myworkcell_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/afif/catkin_ws/src/myworkcell_core/src/myworkcell_node.cpp:46:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KScanNPlan::start(std::__cxx11::string&)[m[K’
+     app.start(base_frame[01;31m[K)[m[K;
+                         [01;31m[K^[m[K
+[01m[K/home/afif/catkin_ws/src/myworkcell_core/src/myworkcell_node.cpp:12:8:[m[K [01;36m[Knote: [m[Kcandidate: void ScanNPlan::start()
+   void [01;36m[Kstart[m[K()
+        [01;36m[K^~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/myworkcell_core/src/myworkcell_node.cpp:12:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+make[2]: *** [CMakeFiles/myworkcell_node.dir/src/myworkcell_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/myworkcell_node.dir/all] Error 2
+make: *** [all] Error 2

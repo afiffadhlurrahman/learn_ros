@@ -1,0 +1,7 @@
+[31m[1mCMake Error[0m at /home/afif/catkin_ws/src/myworkcell_core/CMakeLists.txt:60:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+
+make: *** [cmake_check_build_system] Error 1

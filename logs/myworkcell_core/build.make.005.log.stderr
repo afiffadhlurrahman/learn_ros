@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target 'CMakeFiles/myworkcell_node.dir/build'.  Stop.
+make[1]: *** [CMakeFiles/myworkcell_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

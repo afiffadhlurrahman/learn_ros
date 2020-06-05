@@ -1,0 +1,1 @@
+/home/afif/catkin_ws/devel/.private/myworkcell_core/share/roseus/ros/myworkcell_core/manifest.l

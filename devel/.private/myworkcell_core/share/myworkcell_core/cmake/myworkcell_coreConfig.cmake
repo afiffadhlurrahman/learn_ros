@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(myworkcell_core_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT " " STREQUAL " ")
+if(NOT "/home/afif/catkin_ws/devel/.private/myworkcell_core/include " STREQUAL " ")
   set(myworkcell_core_INCLUDE_DIRS "")
-  set(_include_dirs "")
+  set(_include_dirs "/home/afif/catkin_ws/devel/.private/myworkcell_core/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -177,7 +177,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(myworkcell_core_EXPORTED_TARGETS "")
+set(myworkcell_core_EXPORTED_TARGETS "myworkcell_core_generate_messages_cpp;myworkcell_core_generate_messages_eus;myworkcell_core_generate_messages_lisp;myworkcell_core_generate_messages_nodejs;myworkcell_core_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${myworkcell_core_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -185,7 +185,7 @@ foreach(t ${myworkcell_core_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "roscpp;fake_ar_publisher")
+set(depends "roscpp;fake_ar_publisher;message_runtime;geometry_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
@@ -214,7 +214,7 @@ foreach(depend ${depends})
   list(APPEND myworkcell_core_EXPORTED_TARGETS ${${myworkcell_core_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "myworkcell_core-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${myworkcell_core_DIR}/${extra})

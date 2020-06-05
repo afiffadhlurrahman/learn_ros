@@ -1,0 +1,1 @@
+/home/afif/catkin_ws/devel/.private/myworkcell_core/lib/python2.7/dist-packages/myworkcell_core/srv/__init__.py

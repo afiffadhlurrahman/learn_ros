@@ -3,6 +3,9 @@
 
 CMakeFiles/vision_node.dir/src/vision_node.cpp.o
  /home/afif/catkin_ws/devel/.private/fake_ar_publisher/include/fake_ar_publisher/ARMarker.h
+ /home/afif/catkin_ws/devel/.private/myworkcell_core/include/myworkcell_core/LocalizePart.h
+ /home/afif/catkin_ws/devel/.private/myworkcell_core/include/myworkcell_core/LocalizePartRequest.h
+ /home/afif/catkin_ws/devel/.private/myworkcell_core/include/myworkcell_core/LocalizePartResponse.h
  /home/afif/catkin_ws/src/myworkcell_core/src/vision_node.cpp
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Pose.h

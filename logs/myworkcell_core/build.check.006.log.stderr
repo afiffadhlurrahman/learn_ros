@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /home/afif/catkin_ws/src/myworkcell_core/CMakeLists.txt:147 (add_executable):
+  Cannot find source file:
+
+    src/myworkcell_node.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: myworkcell_node
+CMake Error: Cannot determine link language for target "myworkcell_node".
+make: *** [cmake_check_build_system] Error 1

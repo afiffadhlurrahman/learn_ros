@@ -60,6 +60,440 @@ CMAKE_SOURCE_DIR = /home/afif/catkin_ws/src/myworkcell_core
 CMAKE_BINARY_DIR = /home/afif/catkin_ws/build/myworkcell_core
 
 #=============================================================================
+# Target rules for target CMakeFiles/myworkcell_node.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/myworkcell_core_generate_messages_py.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/myworkcell_core_generate_messages_lisp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/myworkcell_core_generate_messages_eus.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/myworkcell_core_generate_messages_cpp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_eus.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_cpp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_lisp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_nodejs.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_py.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_py.dir/all
+CMakeFiles/myworkcell_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_node.dir/build.make CMakeFiles/myworkcell_node.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_node.dir/build.make CMakeFiles/myworkcell_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num=19,20 "Built target myworkcell_node"
+.PHONY : CMakeFiles/myworkcell_node.dir/all
+
+# Include target in all.
+all: CMakeFiles/myworkcell_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_node.dir/rule
+
+# Convenience name for target.
+myworkcell_node: CMakeFiles/myworkcell_node.dir/rule
+
+.PHONY : myworkcell_node
+
+# clean rule for target.
+CMakeFiles/myworkcell_node.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_node.dir/build.make CMakeFiles/myworkcell_node.dir/clean
+.PHONY : CMakeFiles/myworkcell_node.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/vision_node.dir
+
+# All Build rule for target.
+CMakeFiles/vision_node.dir/all: CMakeFiles/myworkcell_core_generate_messages_py.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/myworkcell_core_generate_messages_lisp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/myworkcell_core_generate_messages_eus.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/myworkcell_core_generate_messages_cpp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_eus.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_cpp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_lisp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_nodejs.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_py.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_py.dir/all
+CMakeFiles/vision_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/depend
+	$(MAKE) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num=21,22 "Built target vision_node"
+.PHONY : CMakeFiles/vision_node.dir/all
+
+# Include target in all.
+all: CMakeFiles/vision_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/vision_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vision_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/vision_node.dir/rule
+
+# Convenience name for target.
+vision_node: CMakeFiles/vision_node.dir/rule
+
+.PHONY : vision_node
+
+# clean rule for target.
+CMakeFiles/vision_node.dir/clean:
+	$(MAKE) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/clean
+.PHONY : CMakeFiles/vision_node.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/vision_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myworkcell_core_genpy.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_core_genpy.dir/all: CMakeFiles/myworkcell_core_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_core_genpy.dir/build.make CMakeFiles/myworkcell_core_genpy.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_core_genpy.dir/build.make CMakeFiles/myworkcell_core_genpy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num= "Built target myworkcell_core_genpy"
+.PHONY : CMakeFiles/myworkcell_core_genpy.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_core_genpy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_core_genpy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_core_genpy.dir/rule
+
+# Convenience name for target.
+myworkcell_core_genpy: CMakeFiles/myworkcell_core_genpy.dir/rule
+
+.PHONY : myworkcell_core_genpy
+
+# clean rule for target.
+CMakeFiles/myworkcell_core_genpy.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_core_genpy.dir/build.make CMakeFiles/myworkcell_core_genpy.dir/clean
+.PHONY : CMakeFiles/myworkcell_core_genpy.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_core_genpy.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myworkcell_core_generate_messages_py.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_core_generate_messages_py.dir/all: CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/all
+CMakeFiles/myworkcell_core_generate_messages_py.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_py.dir/build.make CMakeFiles/myworkcell_core_generate_messages_py.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_py.dir/build.make CMakeFiles/myworkcell_core_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num=17,18 "Built target myworkcell_core_generate_messages_py"
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_core_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_core_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_py.dir/rule
+
+# Convenience name for target.
+myworkcell_core_generate_messages_py: CMakeFiles/myworkcell_core_generate_messages_py.dir/rule
+
+.PHONY : myworkcell_core_generate_messages_py
+
+# clean rule for target.
+CMakeFiles/myworkcell_core_generate_messages_py.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_py.dir/build.make CMakeFiles/myworkcell_core_generate_messages_py.dir/clean
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_core_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myworkcell_core_gennodejs.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_core_gennodejs.dir/all: CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_core_gennodejs.dir/build.make CMakeFiles/myworkcell_core_gennodejs.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_core_gennodejs.dir/build.make CMakeFiles/myworkcell_core_gennodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num= "Built target myworkcell_core_gennodejs"
+.PHONY : CMakeFiles/myworkcell_core_gennodejs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_core_gennodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_core_gennodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_core_gennodejs.dir/rule
+
+# Convenience name for target.
+myworkcell_core_gennodejs: CMakeFiles/myworkcell_core_gennodejs.dir/rule
+
+.PHONY : myworkcell_core_gennodejs
+
+# clean rule for target.
+CMakeFiles/myworkcell_core_gennodejs.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_core_gennodejs.dir/build.make CMakeFiles/myworkcell_core_gennodejs.dir/clean
+.PHONY : CMakeFiles/myworkcell_core_gennodejs.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_core_gennodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myworkcell_core_genlisp.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_core_genlisp.dir/all: CMakeFiles/myworkcell_core_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_core_genlisp.dir/build.make CMakeFiles/myworkcell_core_genlisp.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_core_genlisp.dir/build.make CMakeFiles/myworkcell_core_genlisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num= "Built target myworkcell_core_genlisp"
+.PHONY : CMakeFiles/myworkcell_core_genlisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_core_genlisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_core_genlisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_core_genlisp.dir/rule
+
+# Convenience name for target.
+myworkcell_core_genlisp: CMakeFiles/myworkcell_core_genlisp.dir/rule
+
+.PHONY : myworkcell_core_genlisp
+
+# clean rule for target.
+CMakeFiles/myworkcell_core_genlisp.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_core_genlisp.dir/build.make CMakeFiles/myworkcell_core_genlisp.dir/clean
+.PHONY : CMakeFiles/myworkcell_core_genlisp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_core_genlisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myworkcell_core_generate_messages_lisp.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_core_generate_messages_lisp.dir/all: CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/all
+CMakeFiles/myworkcell_core_generate_messages_lisp.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_lisp.dir/build.make CMakeFiles/myworkcell_core_generate_messages_lisp.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_lisp.dir/build.make CMakeFiles/myworkcell_core_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num=15 "Built target myworkcell_core_generate_messages_lisp"
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_core_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_core_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+myworkcell_core_generate_messages_lisp: CMakeFiles/myworkcell_core_generate_messages_lisp.dir/rule
+
+.PHONY : myworkcell_core_generate_messages_lisp
+
+# clean rule for target.
+CMakeFiles/myworkcell_core_generate_messages_lisp.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_lisp.dir/build.make CMakeFiles/myworkcell_core_generate_messages_lisp.dir/clean
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_core_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myworkcell_core_geneus.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_core_geneus.dir/all: CMakeFiles/myworkcell_core_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_core_geneus.dir/build.make CMakeFiles/myworkcell_core_geneus.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_core_geneus.dir/build.make CMakeFiles/myworkcell_core_geneus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num= "Built target myworkcell_core_geneus"
+.PHONY : CMakeFiles/myworkcell_core_geneus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_core_geneus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_core_geneus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_core_geneus.dir/rule
+
+# Convenience name for target.
+myworkcell_core_geneus: CMakeFiles/myworkcell_core_geneus.dir/rule
+
+.PHONY : myworkcell_core_geneus
+
+# clean rule for target.
+CMakeFiles/myworkcell_core_geneus.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_core_geneus.dir/build.make CMakeFiles/myworkcell_core_geneus.dir/clean
+.PHONY : CMakeFiles/myworkcell_core_geneus.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_core_geneus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myworkcell_core_generate_messages_eus.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_core_generate_messages_eus.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/myworkcell_core_generate_messages_eus.dir/all: CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_eus.dir/build.make CMakeFiles/myworkcell_core_generate_messages_eus.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_eus.dir/build.make CMakeFiles/myworkcell_core_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num=13,14 "Built target myworkcell_core_generate_messages_eus"
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_core_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_core_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+myworkcell_core_generate_messages_eus: CMakeFiles/myworkcell_core_generate_messages_eus.dir/rule
+
+.PHONY : myworkcell_core_generate_messages_eus
+
+# clean rule for target.
+CMakeFiles/myworkcell_core_generate_messages_eus.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_eus.dir/build.make CMakeFiles/myworkcell_core_generate_messages_eus.dir/clean
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_core_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myworkcell_core_gencpp.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_core_gencpp.dir/all: CMakeFiles/myworkcell_core_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_core_gencpp.dir/build.make CMakeFiles/myworkcell_core_gencpp.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_core_gencpp.dir/build.make CMakeFiles/myworkcell_core_gencpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num= "Built target myworkcell_core_gencpp"
+.PHONY : CMakeFiles/myworkcell_core_gencpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_core_gencpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_core_gencpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_core_gencpp.dir/rule
+
+# Convenience name for target.
+myworkcell_core_gencpp: CMakeFiles/myworkcell_core_gencpp.dir/rule
+
+.PHONY : myworkcell_core_gencpp
+
+# clean rule for target.
+CMakeFiles/myworkcell_core_gencpp.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_core_gencpp.dir/build.make CMakeFiles/myworkcell_core_gencpp.dir/clean
+.PHONY : CMakeFiles/myworkcell_core_gencpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_core_gencpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myworkcell_core_generate_messages_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_core_generate_messages_cpp.dir/all: CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/all
+CMakeFiles/myworkcell_core_generate_messages_cpp.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_cpp.dir/build.make CMakeFiles/myworkcell_core_generate_messages_cpp.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_cpp.dir/build.make CMakeFiles/myworkcell_core_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num=12 "Built target myworkcell_core_generate_messages_cpp"
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_core_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_core_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+myworkcell_core_generate_messages_cpp: CMakeFiles/myworkcell_core_generate_messages_cpp.dir/rule
+
+.PHONY : myworkcell_core_generate_messages_cpp
+
+# clean rule for target.
+CMakeFiles/myworkcell_core_generate_messages_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_cpp.dir/build.make CMakeFiles/myworkcell_core_generate_messages_cpp.dir/clean
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_core_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
@@ -316,6 +750,47 @@ clean: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/myworkcell_core_generate_messages.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_core_generate_messages.dir/all: CMakeFiles/myworkcell_core_generate_messages_py.dir/all
+CMakeFiles/myworkcell_core_generate_messages.dir/all: CMakeFiles/myworkcell_core_generate_messages_lisp.dir/all
+CMakeFiles/myworkcell_core_generate_messages.dir/all: CMakeFiles/myworkcell_core_generate_messages_eus.dir/all
+CMakeFiles/myworkcell_core_generate_messages.dir/all: CMakeFiles/myworkcell_core_generate_messages_cpp.dir/all
+CMakeFiles/myworkcell_core_generate_messages.dir/all: CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages.dir/build.make CMakeFiles/myworkcell_core_generate_messages.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages.dir/build.make CMakeFiles/myworkcell_core_generate_messages.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num= "Built target myworkcell_core_generate_messages"
+.PHONY : CMakeFiles/myworkcell_core_generate_messages.dir/all
+
+# Include target in all.
+all: CMakeFiles/myworkcell_core_generate_messages.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_core_generate_messages.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_core_generate_messages.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_core_generate_messages.dir/rule
+
+# Convenience name for target.
+myworkcell_core_generate_messages: CMakeFiles/myworkcell_core_generate_messages.dir/rule
+
+.PHONY : myworkcell_core_generate_messages
+
+# clean rule for target.
+CMakeFiles/myworkcell_core_generate_messages.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages.dir/build.make CMakeFiles/myworkcell_core_generate_messages.dir/clean
+.PHONY : CMakeFiles/myworkcell_core_generate_messages.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_core_generate_messages.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/roscpp_generate_messages_py.dir
 
 # All Build rule for target.
@@ -476,72 +951,6 @@ clean: CMakeFiles/roscpp_generate_messages_eus.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/vision_node.dir
-
-# All Build rule for target.
-CMakeFiles/vision_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_eus.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_cpp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_lisp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_nodejs.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/fake_ar_publisher_generate_messages_py.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_py.dir/all
-CMakeFiles/vision_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(MAKE) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/depend
-	$(MAKE) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num=12,13 "Built target vision_node"
-.PHONY : CMakeFiles/vision_node.dir/all
-
-# Include target in all.
-all: CMakeFiles/vision_node.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/vision_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vision_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
-.PHONY : CMakeFiles/vision_node.dir/rule
-
-# Convenience name for target.
-vision_node: CMakeFiles/vision_node.dir/rule
-
-.PHONY : vision_node
-
-# clean rule for target.
-CMakeFiles/vision_node.dir/clean:
-	$(MAKE) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/clean
-.PHONY : CMakeFiles/vision_node.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/vision_node.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/roscpp_generate_messages_lisp.dir
 
 # All Build rule for target.
@@ -602,6 +1011,39 @@ CMakeFiles/tests.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/tests.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myworkcell_core_generate_messages_nodejs.dir
+
+# All Build rule for target.
+CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/all: CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/all
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/build.make CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/depend
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/build.make CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num=16 "Built target myworkcell_core_generate_messages_nodejs"
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+myworkcell_core_generate_messages_nodejs: CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/rule
+
+.PHONY : myworkcell_core_generate_messages_nodejs
+
+# clean rule for target.
+CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/build.make CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/clean
+.PHONY : CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
@@ -922,6 +1364,38 @@ CMakeFiles/fake_ar_publisher_generate_messages_nodejs.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/fake_ar_publisher_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir
+
+# All Build rule for target.
+CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/all:
+	$(MAKE) -f CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/build.make CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/depend
+	$(MAKE) -f CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/build.make CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/afif/catkin_ws/build/myworkcell_core/CMakeFiles --progress-num= "Built target _myworkcell_core_generate_messages_check_deps_LocalizePart"
+.PHONY : CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/afif/catkin_ws/build/myworkcell_core/CMakeFiles 0
+.PHONY : CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/rule
+
+# Convenience name for target.
+_myworkcell_core_generate_messages_check_deps_LocalizePart: CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/rule
+
+.PHONY : _myworkcell_core_generate_messages_check_deps_LocalizePart
+
+# clean rule for target.
+CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/clean:
+	$(MAKE) -f CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/build.make CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/clean
+.PHONY : CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/clean
 
 .PHONY : clean
 

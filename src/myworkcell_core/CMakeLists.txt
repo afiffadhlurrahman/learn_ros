@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0.2)
 project(myworkcell_core)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-add_compile_options(-std=c++11)
+# add_compile_options(-std=c++11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -10,6 +10,8 @@ add_compile_options(-std=c++11)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   fake_ar_publisher
+  geometry_msgs
+  message_generation
 )
 
 ## System dependencies are found with CMake's conventions
@@ -53,11 +55,12 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
+  add_service_files(
+    FILES
+    LocalizePart.srv
 #   Service1.srv
 #   Service2.srv
-# )
+  )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -67,10 +70,11 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
+generate_messages(
+    DEPENDENCIES
+    geometry_msgs
 #   std_msgs  # Or other packages containing msgs
-# )
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -107,6 +111,8 @@ catkin_package(
   CATKIN_DEPENDS 
     roscpp
     fake_ar_publisher
+    message_runtime
+    geometry_msgs
 #  DEPENDS system_lib
 )
 
@@ -135,10 +141,11 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/myworkcell_core_node.cpp)
-# add_dependencies(vision_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+  add_executable(vision_node src/vision_node.cpp)
+  add_executable(myworkcell_node src/myworkcell_node.cpp)
 
-add_executable(vision_node src/vision_node.cpp)
-add_dependencies(vision_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+  add_dependencies(vision_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+  add_dependencies(myworkcell_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -155,7 +162,7 @@ add_dependencies(vision_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORT
 #   ${catkin_LIBRARIES}
 # )
 target_link_libraries(vision_node ${catkin_LIBRARIES})
-
+target_link_libraries(myworkcell_node ${catkin_LIBRARIES})
 
 #############
 ## Install ##

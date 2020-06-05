@@ -168,6 +168,149 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named myworkcell_node
+
+# Build rule for target.
+myworkcell_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_node
+.PHONY : myworkcell_node
+
+# fast build rule for target.
+myworkcell_node/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_node.dir/build.make CMakeFiles/myworkcell_node.dir/build
+.PHONY : myworkcell_node/fast
+
+#=============================================================================
+# Target rules for targets named vision_node
+
+# Build rule for target.
+vision_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vision_node
+.PHONY : vision_node
+
+# fast build rule for target.
+vision_node/fast:
+	$(MAKE) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/build
+.PHONY : vision_node/fast
+
+#=============================================================================
+# Target rules for targets named myworkcell_core_genpy
+
+# Build rule for target.
+myworkcell_core_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_core_genpy
+.PHONY : myworkcell_core_genpy
+
+# fast build rule for target.
+myworkcell_core_genpy/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_core_genpy.dir/build.make CMakeFiles/myworkcell_core_genpy.dir/build
+.PHONY : myworkcell_core_genpy/fast
+
+#=============================================================================
+# Target rules for targets named myworkcell_core_generate_messages_py
+
+# Build rule for target.
+myworkcell_core_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_core_generate_messages_py
+.PHONY : myworkcell_core_generate_messages_py
+
+# fast build rule for target.
+myworkcell_core_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_py.dir/build.make CMakeFiles/myworkcell_core_generate_messages_py.dir/build
+.PHONY : myworkcell_core_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named myworkcell_core_gennodejs
+
+# Build rule for target.
+myworkcell_core_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_core_gennodejs
+.PHONY : myworkcell_core_gennodejs
+
+# fast build rule for target.
+myworkcell_core_gennodejs/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_core_gennodejs.dir/build.make CMakeFiles/myworkcell_core_gennodejs.dir/build
+.PHONY : myworkcell_core_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named myworkcell_core_genlisp
+
+# Build rule for target.
+myworkcell_core_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_core_genlisp
+.PHONY : myworkcell_core_genlisp
+
+# fast build rule for target.
+myworkcell_core_genlisp/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_core_genlisp.dir/build.make CMakeFiles/myworkcell_core_genlisp.dir/build
+.PHONY : myworkcell_core_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named myworkcell_core_generate_messages_lisp
+
+# Build rule for target.
+myworkcell_core_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_core_generate_messages_lisp
+.PHONY : myworkcell_core_generate_messages_lisp
+
+# fast build rule for target.
+myworkcell_core_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_lisp.dir/build.make CMakeFiles/myworkcell_core_generate_messages_lisp.dir/build
+.PHONY : myworkcell_core_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named myworkcell_core_geneus
+
+# Build rule for target.
+myworkcell_core_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_core_geneus
+.PHONY : myworkcell_core_geneus
+
+# fast build rule for target.
+myworkcell_core_geneus/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_core_geneus.dir/build.make CMakeFiles/myworkcell_core_geneus.dir/build
+.PHONY : myworkcell_core_geneus/fast
+
+#=============================================================================
+# Target rules for targets named myworkcell_core_generate_messages_eus
+
+# Build rule for target.
+myworkcell_core_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_core_generate_messages_eus
+.PHONY : myworkcell_core_generate_messages_eus
+
+# fast build rule for target.
+myworkcell_core_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_eus.dir/build.make CMakeFiles/myworkcell_core_generate_messages_eus.dir/build
+.PHONY : myworkcell_core_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named myworkcell_core_gencpp
+
+# Build rule for target.
+myworkcell_core_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_core_gencpp
+.PHONY : myworkcell_core_gencpp
+
+# fast build rule for target.
+myworkcell_core_gencpp/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_core_gencpp.dir/build.make CMakeFiles/myworkcell_core_gencpp.dir/build
+.PHONY : myworkcell_core_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named myworkcell_core_generate_messages_cpp
+
+# Build rule for target.
+myworkcell_core_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_core_generate_messages_cpp
+.PHONY : myworkcell_core_generate_messages_cpp
+
+# fast build rule for target.
+myworkcell_core_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_cpp.dir/build.make CMakeFiles/myworkcell_core_generate_messages_cpp.dir/build
+.PHONY : myworkcell_core_generate_messages_cpp/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -272,6 +415,19 @@ rosgraph_msgs_generate_messages_cpp/fast:
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named myworkcell_core_generate_messages
+
+# Build rule for target.
+myworkcell_core_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_core_generate_messages
+.PHONY : myworkcell_core_generate_messages
+
+# fast build rule for target.
+myworkcell_core_generate_messages/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages.dir/build.make CMakeFiles/myworkcell_core_generate_messages.dir/build
+.PHONY : myworkcell_core_generate_messages/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_py
 
 # Build rule for target.
@@ -337,19 +493,6 @@ roscpp_generate_messages_eus/fast:
 .PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named vision_node
-
-# Build rule for target.
-vision_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 vision_node
-.PHONY : vision_node
-
-# fast build rule for target.
-vision_node/fast:
-	$(MAKE) -f CMakeFiles/vision_node.dir/build.make CMakeFiles/vision_node.dir/build
-.PHONY : vision_node/fast
-
-#=============================================================================
 # Target rules for targets named roscpp_generate_messages_lisp
 
 # Build rule for target.
@@ -374,6 +517,19 @@ tests: cmake_check_build_system
 tests/fast:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 .PHONY : tests/fast
+
+#=============================================================================
+# Target rules for targets named myworkcell_core_generate_messages_nodejs
+
+# Build rule for target.
+myworkcell_core_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myworkcell_core_generate_messages_nodejs
+.PHONY : myworkcell_core_generate_messages_nodejs
+
+# fast build rule for target.
+myworkcell_core_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/build.make CMakeFiles/myworkcell_core_generate_messages_nodejs.dir/build
+.PHONY : myworkcell_core_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
@@ -504,6 +660,19 @@ fake_ar_publisher_generate_messages_nodejs: cmake_check_build_system
 fake_ar_publisher_generate_messages_nodejs/fast:
 	$(MAKE) -f CMakeFiles/fake_ar_publisher_generate_messages_nodejs.dir/build.make CMakeFiles/fake_ar_publisher_generate_messages_nodejs.dir/build
 .PHONY : fake_ar_publisher_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named _myworkcell_core_generate_messages_check_deps_LocalizePart
+
+# Build rule for target.
+_myworkcell_core_generate_messages_check_deps_LocalizePart: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _myworkcell_core_generate_messages_check_deps_LocalizePart
+.PHONY : _myworkcell_core_generate_messages_check_deps_LocalizePart
+
+# fast build rule for target.
+_myworkcell_core_generate_messages_check_deps_LocalizePart/fast:
+	$(MAKE) -f CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/build.make CMakeFiles/_myworkcell_core_generate_messages_check_deps_LocalizePart.dir/build
+.PHONY : _myworkcell_core_generate_messages_check_deps_LocalizePart/fast
 
 #=============================================================================
 # Target rules for targets named fake_ar_publisher_generate_messages_py
@@ -687,6 +856,33 @@ gtest/fast:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+src/myworkcell_node.o: src/myworkcell_node.cpp.o
+
+.PHONY : src/myworkcell_node.o
+
+# target to build an object file
+src/myworkcell_node.cpp.o:
+	$(MAKE) -f CMakeFiles/myworkcell_node.dir/build.make CMakeFiles/myworkcell_node.dir/src/myworkcell_node.cpp.o
+.PHONY : src/myworkcell_node.cpp.o
+
+src/myworkcell_node.i: src/myworkcell_node.cpp.i
+
+.PHONY : src/myworkcell_node.i
+
+# target to preprocess a source file
+src/myworkcell_node.cpp.i:
+	$(MAKE) -f CMakeFiles/myworkcell_node.dir/build.make CMakeFiles/myworkcell_node.dir/src/myworkcell_node.cpp.i
+.PHONY : src/myworkcell_node.cpp.i
+
+src/myworkcell_node.s: src/myworkcell_node.cpp.s
+
+.PHONY : src/myworkcell_node.s
+
+# target to generate assembly for a file
+src/myworkcell_node.cpp.s:
+	$(MAKE) -f CMakeFiles/myworkcell_node.dir/build.make CMakeFiles/myworkcell_node.dir/src/myworkcell_node.cpp.s
+.PHONY : src/myworkcell_node.cpp.s
+
 src/vision_node.o: src/vision_node.cpp.o
 
 .PHONY : src/vision_node.o
@@ -724,7 +920,18 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... myworkcell_node"
+	@echo "... vision_node"
+	@echo "... myworkcell_core_genpy"
+	@echo "... myworkcell_core_generate_messages_py"
+	@echo "... myworkcell_core_gennodejs"
+	@echo "... myworkcell_core_genlisp"
+	@echo "... myworkcell_core_generate_messages_lisp"
+	@echo "... myworkcell_core_geneus"
+	@echo "... myworkcell_core_generate_messages_eus"
+	@echo "... myworkcell_core_gencpp"
 	@echo "... test"
+	@echo "... myworkcell_core_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"
@@ -733,15 +940,16 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... fake_ar_publisher_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... myworkcell_core_generate_messages"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
-	@echo "... vision_node"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... tests"
 	@echo "... rebuild_cache"
+	@echo "... myworkcell_core_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... download_extra_data"
 	@echo "... run_tests"
@@ -753,6 +961,7 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... fake_ar_publisher_generate_messages_lisp"
 	@echo "... fake_ar_publisher_generate_messages_nodejs"
+	@echo "... _myworkcell_core_generate_messages_check_deps_LocalizePart"
 	@echo "... fake_ar_publisher_generate_messages_py"
 	@echo "... visualization_msgs_generate_messages_cpp"
 	@echo "... visualization_msgs_generate_messages_eus"
@@ -767,6 +976,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... src/myworkcell_node.o"
+	@echo "... src/myworkcell_node.i"
+	@echo "... src/myworkcell_node.s"
 	@echo "... src/vision_node.o"
 	@echo "... src/vision_node.i"
 	@echo "... src/vision_node.s"
