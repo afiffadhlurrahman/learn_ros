@@ -31,7 +31,7 @@ Learning list of ROS :
 - [X] Intro to URDF
 - [X] Workcell XACRO
 - [X] Transforms using TF
-- [X] Build a MoveIt! Package
+- [X] Build a MoveIt! Package `sudo apt-get install ros-melodic-moveit` `sudo apt-get install ros-melodic-industrial-core`
 - [ ] Motion Planning using C++
 - [ ] Into to Descartes
 - [ ] Into to Perception
