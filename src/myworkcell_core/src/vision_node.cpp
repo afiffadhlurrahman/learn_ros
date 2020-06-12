@@ -3,7 +3,8 @@
 **/
 #include <ros/ros.h>
 #include <fake_ar_publisher/ARMarker.h>
- #include <myworkcell_core/LocalizePart.h>
+#include <myworkcell_core/LocalizePart.h>
+#include <tf/transform_listener.h>
 
 class Localizer
 {
@@ -27,13 +28,24 @@ public:
         fake_ar_publisher::ARMarkerConstPtr p = last_msg_;  
         if (!p) return false;
 
-        res.pose = p->pose.pose;
+        tf::Transform cam_to_target;
+        tf::poseMsgToTF(p->pose.pose, cam_to_target);
+        
+        tf::StampedTransform req_to_cam;
+        listener_.lookupTransform(req.base_frame, p->header.frame_id, ros::Time(0), req_to_cam);
+
+        tf::Transform req_to_target;
+        req_to_target = req_to_cam * cam_to_target;
+        
+        tf::poseTFToMsg(req_to_target, res.pose);
+        // res.pose = p->pose.pose;
         return true;
   }
 
   ros::Subscriber ar_sub_;
   ros::ServiceServer server_;
   fake_ar_publisher::ARMarkerConstPtr last_msg_;
+  tf::TransformListener listener_;
 };
 
 

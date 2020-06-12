@@ -1,0 +1,12 @@
+CMakeFiles/vision_node.dir/src/vision_node.cpp.o: In function `Localizer::Localizer(ros::NodeHandle&)':
+vision_node.cpp:(.text._ZN9LocalizerC2ERN3ros10NodeHandleE[_ZN9LocalizerC5ERN3ros10NodeHandleE]+0x74): undefined reference to `tf::Transformer::DEFAULT_CACHE_TIME'
+vision_node.cpp:(.text._ZN9LocalizerC2ERN3ros10NodeHandleE[_ZN9LocalizerC5ERN3ros10NodeHandleE]+0xa9): undefined reference to `tf::TransformListener::TransformListener(ros::Duration, bool)'
+vision_node.cpp:(.text._ZN9LocalizerC2ERN3ros10NodeHandleE[_ZN9LocalizerC5ERN3ros10NodeHandleE]+0x330): undefined reference to `tf::TransformListener::~TransformListener()'
+CMakeFiles/vision_node.dir/src/vision_node.cpp.o: In function `Localizer::localizePart(myworkcell_core::LocalizePartRequest_<std::allocator<void> >&, myworkcell_core::LocalizePartResponse_<std::allocator<void> >&)':
+vision_node.cpp:(.text._ZN9Localizer12localizePartERN15myworkcell_core20LocalizePartRequest_ISaIvEEERNS0_21LocalizePartResponse_IS2_EE[_ZN9Localizer12localizePartERN15myworkcell_core20LocalizePartRequest_ISaIvEEERNS0_21LocalizePartResponse_IS2_EE]+0x103): undefined reference to `tf::Transformer::lookupTransform(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::Time const&, tf::StampedTransform&) const'
+CMakeFiles/vision_node.dir/src/vision_node.cpp.o: In function `Localizer::~Localizer()':
+vision_node.cpp:(.text._ZN9LocalizerD2Ev[_ZN9LocalizerD5Ev]+0x18): undefined reference to `tf::TransformListener::~TransformListener()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/afif/catkin_ws/devel/.private/myworkcell_core/lib/myworkcell_core/vision_node] Error 1
+make[1]: *** [CMakeFiles/vision_node.dir/all] Error 2
+make: *** [all] Error 2

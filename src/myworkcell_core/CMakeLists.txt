@@ -9,6 +9,7 @@ project(myworkcell_core)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   roscpp
+  #rospy
   fake_ar_publisher
   geometry_msgs
   message_generation
@@ -110,6 +111,7 @@ catkin_package(
 #  LIBRARIES myworkcell_core
   CATKIN_DEPENDS 
     roscpp
+    #rospy
     fake_ar_publisher
     message_runtime
     geometry_msgs
