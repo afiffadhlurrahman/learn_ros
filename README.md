@@ -28,10 +28,10 @@ Learning list of ROS :
 - [ ] Actions -> Action server and client
 - [X] Launch Files
 - [X] Parameters
-- [ ] Intro to URDF
-- [ ] Workcell XACRO
-- [ ] Transforms using TF
-- [ ] Build a MoveIt! Package
+- [X] Intro to URDF
+- [X] Workcell XACRO
+- [X] Transforms using TF
+- [X] Build a MoveIt! Package
 - [ ] Motion Planning using C++
 - [ ] Into to Descartes
 - [ ] Into to Perception
