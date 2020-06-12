@@ -26,11 +26,25 @@ Learning list of ROS :
 - [X] Topics and Messages
 - [X] Services
 - [ ] Actions -> Action server and client
-- [ ] Launch Files
-- [ ] Parameters
-- [ ] Intro to URDF
-- [ ] Workcell XACRO
-- [ ] Transforms using TF
+- [X] Launch Files
+- [X] Parameters
+- [X] Intro to URDF
+- [X] Workcell XACRO
+- [X] Transforms using TF
+- [X] Build a MoveIt! Package
+- [ ] Motion Planning using C++
+- [ ] Into to Descartes
+- [ ] Into to Perception
+- [ ] Advance Descartes Path Planning
+- [ ] Building a Perception Pipeline
+- [ ] Introduction to STOMP
+- [ ] Simple PCL Interface for python
+- [ ] Opencv Image Processing (Python)
+- [ ] Documentation Generation
+- [ ] Unit Testing
+- [ ] Using rqt tools for analysis
+- [ ] ROS Style Guide and ros_lint
+
 
 source : 
 - http://wiki.ros.org/
