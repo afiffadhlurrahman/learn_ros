@@ -17,6 +17,10 @@
 * `rosnode`   : Menampilkan informasi debug tentang ROS Nodes , termasuk publikasi, langganan, dan koneksi.
 
 note : setelah build run `source ~/catkin_ws/devel/setup.bash`
+command : 
+1. `roslaunch mavros px4.launch fcu_url:="udp://:1450@127.0.0.1:14557"` di catkin_ws
+2. `make px4_sitl_default gazebo` di dir src/Firmware
+3. `rosrun offb offb_node`
 
 Learning list of ROS :
 - [X] ROS Setup
