@@ -53,3 +53,7 @@ Learning list of ROS :
 source : 
 - http://wiki.ros.org/
 - https://industrial-training-master.readthedocs.io/en/melodic/
+
+UDP Port 14540 is used for communication with offboard APIs. Offboard APIs are expected to listen for connections on this port.
+UDP Port 14550 is used for communication with ground control stations. GCS are expected to listen for connections on this port. QGroundControl listens to this port by default.
+TCP Port 4560 is used for communication with simulators. PX4 listens to this port, and simulators are expected to initiate the communication by broadcasting data to this port.
