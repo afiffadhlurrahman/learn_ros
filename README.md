@@ -18,7 +18,7 @@
 
 note : setelah build run `source ~/catkin_ws/devel/setup.bash`
 command : 
-1. `roslaunch mavros px4.launch fcu_url:="udp://:1450@127.0.0.1:14557"` di catkin_ws
+1. `roslaunch mavros px4.launch fcu_url:="udp://:1450@127.0.0.1:14557"` di catkin_ws. note : port 14550 atau 14540
 2. `make px4_sitl_default gazebo` di dir src/Firmware
 3. `rosrun offb offb_node`
 
