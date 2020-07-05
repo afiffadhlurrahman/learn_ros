@@ -57,3 +57,12 @@ source :
 UDP Port 14540 is used for communication with offboard APIs. Offboard APIs are expected to listen for connections on this port.
 UDP Port 14550 is used for communication with ground control stations. GCS are expected to listen for connections on this port. QGroundControl listens to this port by default.
 TCP Port 4560 is used for communication with simulators. PX4 listens to this port, and simulators are expected to initiate the communication by broadcasting data to this port.
+
+Before run ```make px4_sitl jmavsim``` :
+```pip3 install --user empy```
+```pip3 install --user packaging```
+```pip3 install --user jinja2```
+```pip3 install --user toml```
+```pip3 install numpy```
+
+
