@@ -69,6 +69,7 @@ while not rospy.is_shutdown() :
 
     #print("jarak : ",x," ",y," ",width-w," ",height-h)
     data = str(x) + " " + str(y) + " " + str(width-w) + " " + str(height-h)
+    #data = [x,y,width-w,height-h]
     #print(a)
     
     rospy.loginfo(data)
