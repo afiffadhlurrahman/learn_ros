@@ -18,24 +18,25 @@ class fcuModes:
     def setTakeoff(self):
         rospy.wait_for_service('mavros/cmd/takeoff')
         try:
+            print("Waiting takeoff")
             takeoffService = rospy.ServiceProxy('mavros/cmd/takeoff', mavros_msgs.srv.CommandTOL)
-            takeoffService(altitude = 10)
+            takeoffService(altitude = 3)
         except rospy.ServiceException, e:
             print ("Service takeoff call failed: %s"%e)
 
     def setArm(self):
         rospy.wait_for_service('mavros/cmd/arming')
-        print ("heheh")
         try:
+            print("Waiting for arming...")
             armService = rospy.ServiceProxy('mavros/cmd/arming', mavros_msgs.srv.CommandBool)
             armService(True)
-            print ("hahaha")
         except rospy.ServiceException, e:
             print ("Service arming call failed: %s"%e)
 
     def setDisarm(self):
         rospy.wait_for_service('mavros/cmd/arming')
         try:
+            print("Waiting for disarming...")
             armService = rospy.ServiceProxy('mavros/cmd/arming', mavros_msgs.srv.CommandBool)
             armService(False)
         except rospy.ServiceException, e:
@@ -44,6 +45,7 @@ class fcuModes:
     def setStabilizedMode(self):
         rospy.wait_for_service('mavros/set_mode')
         try:
+            print("It's stabilazed mode!")
             flightModeService = rospy.ServiceProxy('mavros/set_mode', mavros_msgs.srv.SetMode)
             flightModeService(custom_mode='STABILIZED')
         except rospy.ServiceException, e:
@@ -52,6 +54,7 @@ class fcuModes:
     def setOffboardMode(self):
         rospy.wait_for_service('mavros/set_mode')
         try:
+            print("It's offboard mode!")    
             flightModeService = rospy.ServiceProxy('mavros/set_mode', mavros_msgs.srv.SetMode)
             flightModeService(custom_mode='OFFBOARD')
         except rospy.ServiceException, e:
@@ -64,7 +67,7 @@ class fcuModes:
             flightModeService(custom_mode='ALTCTL')
         except rospy.ServiceException, e:
             print ("service set_mode call failed: %s. Altitude Mode could not be set."%e)
-    
+
     def setPositionMode(self):
         rospy.wait_for_service('mavros/set_mode')
         try:
@@ -95,12 +98,12 @@ class Controller:
 
         # We will fly at a fixed altitude for now
         # Altitude setpoint, [meters]
-        self.ALT_SP = 10.0
+        self.ALT_SP = 3.0
         # update the setpoint message with the required altitude
         self.sp.position.z = self.ALT_SP
         # Step size for position update
         self.STEP_SIZE = 2.0
-		# Fence. We will assume a square fence for now
+        # Fence. We will assume a square fence for now
         self.FENCE_LIMIT = 5.0
 
         # A Message for the current local position of the drone
@@ -118,7 +121,7 @@ class Controller:
         # speed of the drone is set using MPC_XY_CRUISE parameter in MAVLink
         # using QGroundControl. By default it is 5 m/s.
 
-	# Callbacks
+    # Callbacks
 
     ## local position callback
     def posCb(self, msg):
@@ -136,20 +139,20 @@ class Controller:
         self.sp.position.y = self.local_pos.y
 
     def x_dir(self):
-    	self.sp.position.x = self.local_pos.x + 5
-    	self.sp.position.y = self.local_pos.y
+        self.sp.position.x = self.local_pos.x + 5
+        self.sp.position.y = self.local_pos.y
 
     def neg_x_dir(self):
-    	self.sp.position.x = self.local_pos.x - 5
-    	self.sp.position.y = self.local_pos.y
+        self.sp.position.x = self.local_pos.x - 5
+        self.sp.position.y = self.local_pos.y
 
     def y_dir(self):
-    	self.sp.position.x = self.local_pos.x
-    	self.sp.position.y = self.local_pos.y + 5
+        self.sp.position.x = self.local_pos.x
+        self.sp.position.y = self.local_pos.y + 5
 
     def neg_y_dir(self):
-    	self.sp.position.x = self.local_pos.x
-    	self.sp.position.y = self.local_pos.y - 5
+        self.sp.position.x = self.local_pos.x
+        self.sp.position.y = self.local_pos.y - 5
 
     def callback(self,data):
         #rospy.loginfo(rospy.get_caller_id() + "[Hasil] %s", data.data)
@@ -164,7 +167,8 @@ class Controller:
 
     def listener(self):
         rospy.Subscriber("chatter", String, self.callback)
-        rospy.spin()
+        # cnt.updateSp()
+        # rospy.spin()
 
 # Main function
 def main():
@@ -196,28 +200,50 @@ def main():
         modes.setArm()
         rate.sleep()
 
-
     # set in takeoff mode and takeoff to default altitude (3 m)
-    modes.setTakeoff()
-    rate.sleep()
-    print("kok")
+    # modes.setTakeoff()
+    # rate.sleep()
     # We need to send few setpoint messages, then activate OFFBOARD mode, to take effect
     k=0
     while k<10:
         sp_pub.publish(cnt.sp)
         rate.sleep()
         k = k + 1
-    print("lohhh")
+
+    print("MAIN: SET OFFBOARD")
     # activate OFFBOARD mode
     modes.setOffboardMode()
 
+    rospy.sleep(3)
+    
     # ROS main loop
     while not rospy.is_shutdown():
-        cnt.listener()
     	cnt.updateSp()
-        print(cnt.x_vision)
-    	sp_pub.publish(cnt.sp)
-        # print(x)
+        cnt.listener()
+
+        # geser kiri
+        if cnt.x_vision > cnt.w_vision:
+            print("kiri")
+            cnt.neg_x_dir()
+        #geser kanan
+        elif cnt.x_vision < cnt.w_vision:
+            print("kanan")
+            cnt.x_dir()
+
+        #geser keatas (perspektif 2D)
+        if cnt.y_vision > cnt.h_vision:
+            print("atas")
+            cnt.neg_y_dir()
+        #geser kebawah (perspektif 2D)
+        elif cnt.y_vision < cnt.h_vision:
+            print("bawah")
+            cnt.y_dir()
+        
+        if cnt.sp.position.z == 3:
+            print("position reached")
+
+        sp_pub.publish(cnt.sp)
+        # rospy.sleep(3)
     	rate.sleep()
 
 if __name__ == '__main__':
