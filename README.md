@@ -66,3 +66,8 @@ Before run ```make px4_sitl jmavsim``` :
 ```pip3 install numpy```
 
 
+### MAVROS
+- The service /mavros/set_mode is used to set the mode (Guided or Stabilized)
+- To arm or disarm the drone, the service /mavros/cmd/arming is used in same way as to set the mode
+- To takeoff the drone, the /mavros/cmd/takeoff service is used, and it takes the altitude, latitude, longitude, min_pitch, and yaw as parameters
+- To land the drone, the /mavros/cmd/land service is used, and it takes the altitude, latitude, longitude, min_pitch, and yaw as parameters:
