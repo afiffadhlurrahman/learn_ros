@@ -22,7 +22,7 @@ command :
 2. `make px4_sitl_default gazebo` di dir src/Firmware
 3. `rosrun offb offb_node`
 
-`roslaunch mavros px4.launch fcu_url:="udp://:1450@127.0.0.1:14557"`
+`roslaunch mavros px4.launch fcu_url:="udp://:14540@192.168.1.36:14557"`
 
 Learning list of ROS :
 - [X] ROS Setup
