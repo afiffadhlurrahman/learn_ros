@@ -90,13 +90,25 @@ int main(){
 
     double inc = mypid.calculate(val);
     printf("val:% 7.3f inc:% 7.3f\n", val, inc);
-    val += inc;
+    val -= inc;
     
     sleep(5);
     
     inc = mypid.calculate(val);
     printf("val:% 7.3f inc:% 7.3f\n", val, inc);
-    val += inc;
+    val -= inc;
+    
+    sleep(5);
+    
+    inc = mypid.calculate(val);
+    printf("val:% 7.3f inc:% 7.3f\n", val, inc);
+    val -= inc;
+    
+    sleep(5);
+    
+    inc = mypid.calculate(val);
+    printf("val:% 7.3f inc:% 7.3f\n", val, inc);
+    val -= inc;
     
     return 0;
 }
