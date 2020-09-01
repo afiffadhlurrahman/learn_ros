@@ -79,36 +79,22 @@ double PID::calculate(double error){
 
 
 int main(){
-    PID mypid(0.1, 0.01, 0.5);
+    PID mypid(0.6, 0.01, 0.5);
     double val = 20;
-
+    double inc;
     // for(int i=0; i<5;i++){
     //     double inc = mypid.calculate(0, val);
     //     printf("val:% 7.3f inc:% 7.3f\n", val, inc);
     //     val += inc;
     // }
 
-    double inc = mypid.calculate(val);
-    printf("val:% 7.3f inc:% 7.3f\n", val, inc);
-    val -= inc;
-    
-    sleep(5);
-    
-    inc = mypid.calculate(val);
-    printf("val:% 7.3f inc:% 7.3f\n", val, inc);
-    val -= inc;
-    
-    sleep(5);
-    
-    inc = mypid.calculate(val);
-    printf("val:% 7.3f inc:% 7.3f\n", val, inc);
-    val -= inc;
-    
-    sleep(5);
-    
-    inc = mypid.calculate(val);
-    printf("val:% 7.3f inc:% 7.3f\n", val, inc);
-    val -= inc;
-    
+    for(int i=0;i<20;i++){
+        inc = mypid.calculate(val);
+        printf("val:% 7.3f inc:% 7.3f\n", val, inc);
+        val -= inc;
+
+        sleep(5);
+    }
+
     return 0;
 }
