@@ -1,0 +1,220 @@
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[  0%] Built target trajectory_msgs_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py[0m
+[  0%] Built target diagnostic_msgs_generate_messages_py
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_eus[0m
+[  0%] Built target uuid_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_eus[0m
+[  0%] Built target geographic_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_lisp[0m
+[  0%] Built target geographic_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_lisp[0m
+[  0%] Built target uuid_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[  0%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_nodejs[0m
+[  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_nodejs[0m
+[  0%] Built target mavros_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus[0m
+[  0%] Built target diagnostic_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_cpp[0m
+[  0%] Built target geographic_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp[0m
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_cpp[0m
+[  0%] Built target uuid_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_py[0m
+[  0%] Built target geographic_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_nodejs[0m
+[  0%] Built target uuid_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_py[0m
+[  0%] Built target uuid_msgs_generate_messages_py
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_cpp[0m
+[  0%] Built target mavros_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_eus[0m
+[  0%] Built target mavros_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_py[0m
+[  0%] Built target mavros_msgs_generate_messages_py
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_lisp[0m
+[  0%] Built target mavros_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  0%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[  0%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  0%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  0%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_nodejs[0m
+[  0%] Built target geographic_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  0%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp[0m
+[  0%] Built target diagnostic_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mavros[0m
+[  2%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_sensor_orientation.cpp.o[0m
+In file included from [01m[K/home/afif/catkin_ws/src/mavros/mavros/src/lib/enum_sensor_orientation.cpp:17:0[m[K:
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:70:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::__cxx11::string mavros::utils::to_string[m[K’ redeclared as different kind of symbol
+ std::string to_string(mavlink::common::[01;31m[KMAV_AUTOPILOT[m[K e);
+                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:68:13:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::__cxx11::string mavros::utils::to_string(mavlink::common::MAV_SENSOR_ORIENTATION)[m[K’
+ std::string [01;36m[Kto_string[m[K(mavlink::common::MAV_SENSOR_ORIENTATION e);
+             [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:70:40:[m[K [01;31m[Kerror: [m[K‘[01m[KMAV_AUTOPILOT[m[K’ is not a member of ‘[01m[Kmavlink::common[m[K’
+ std::string to_string(mavlink::common::[01;31m[KMAV_AUTOPILOT[m[K e);
+                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:70:40:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/afif/catkin_ws/devel/include/mavlink/v2.0/common/common.hpp:2254:0[m[K,
+                 from [01m[K/home/afif/catkin_ws/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26[m[K,
+                 from [01m[K/home/afif/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:18[m[K,
+                 from [01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22[m[K,
+                 from [01m[K/home/afif/catkin_ws/src/mavros/mavros/src/lib/enum_sensor_orientation.cpp:17[m[K:
+[01m[K/home/afif/catkin_ws/devel/include/mavlink/v2.0/common/../minimal/minimal.hpp:34:12:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmavlink::minimal::MAV_AUTOPILOT[m[K’
+ enum class [01;36m[KMAV_AUTOPILOT[m[K : uint8_t
+            [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/afif/catkin_ws/src/mavros/mavros/src/lib/enum_sensor_orientation.cpp:17:0[m[K:
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:71:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::__cxx11::string mavros::utils::to_string[m[K’ redeclared as different kind of symbol
+ std::string to_string(mavlink::common::[01;31m[KMAV_TYPE[m[K e);
+                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:68:13:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::__cxx11::string mavros::utils::to_string(mavlink::common::MAV_SENSOR_ORIENTATION)[m[K’
+ std::string [01;36m[Kto_string[m[K(mavlink::common::MAV_SENSOR_ORIENTATION e);
+             [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:71:40:[m[K [01;31m[Kerror: [m[K‘[01m[KMAV_TYPE[m[K’ is not a member of ‘[01m[Kmavlink::common[m[K’
+ std::string to_string(mavlink::common::[01;31m[KMAV_TYPE[m[K e);
+                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:71:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KAIS_TYPE[m[K’
+ std::string to_string(mavlink::common::[01;36m[KMAV_TYPE[m[K e);
+                                        [01;36m[K^~~~~~~~[m[K
+                                        [32m[KAIS_TYPE[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:72:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::__cxx11::string mavros::utils::to_string[m[K’ redeclared as different kind of symbol
+ std::string to_string(mavlink::common::[01;31m[KMAV_STATE[m[K e);
+                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:68:13:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::__cxx11::string mavros::utils::to_string(mavlink::common::MAV_SENSOR_ORIENTATION)[m[K’
+ std::string [01;36m[Kto_string[m[K(mavlink::common::MAV_SENSOR_ORIENTATION e);
+             [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:72:40:[m[K [01;31m[Kerror: [m[K‘[01m[KMAV_STATE[m[K’ is not a member of ‘[01m[Kmavlink::common[m[K’
+ std::string to_string(mavlink::common::[01;31m[KMAV_STATE[m[K e);
+                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:72:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KMAV_FRAME[m[K’
+ std::string to_string(mavlink::common::[01;36m[KMAV_STATE[m[K e);
+                                        [01;36m[K^~~~~~~~~[m[K
+                                        [32m[KMAV_FRAME[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:73:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::__cxx11::string mavros::utils::to_string[m[K’ redeclared as different kind of symbol
+ std::string to_string(mavlink::common::[01;31m[KMAV_COMPONENT[m[K e);
+                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:68:13:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::__cxx11::string mavros::utils::to_string(mavlink::common::MAV_SENSOR_ORIENTATION)[m[K’
+ std::string [01;36m[Kto_string[m[K(mavlink::common::MAV_SENSOR_ORIENTATION e);
+             [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:73:40:[m[K [01;31m[Kerror: [m[K‘[01m[KMAV_COMPONENT[m[K’ is not a member of ‘[01m[Kmavlink::common[m[K’
+ std::string to_string(mavlink::common::[01;31m[KMAV_COMPONENT[m[K e);
+                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:73:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KMAV_MODE[m[K’
+ std::string to_string(mavlink::common::[01;36m[KMAV_COMPONENT[m[K e);
+                                        [01;36m[K^~~~~~~~~~~~~[m[K
+                                        [32m[KMAV_MODE[m[K
+[01m[K/home/afif/catkin_ws/src/mavros/mavros/include/mavros/utils.h:114:18:[m[K [01;31m[Kerror: [m[K‘[01m[KMAV_TYPE[m[K’ in namespace ‘[01m[Kmavlink::common[m[K’ does not name a type
+ mavlink::common::[01;31m[KMAV_TYPE[m[K mav_type_from_str(const std::string &mav_type);
+                  [01;31m[K^~~~~~~~[m[K
+CMakeFiles/mavros.dir/build.make:62: recipe for target 'CMakeFiles/mavros.dir/src/lib/enum_sensor_orientation.cpp.o' failed
+make[2]: *** [CMakeFiles/mavros.dir/src/lib/enum_sensor_orientation.cpp.o] Error 1
+CMakeFiles/Makefile2:547: recipe for target 'CMakeFiles/mavros.dir/all' failed
+make[1]: *** [CMakeFiles/mavros.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
