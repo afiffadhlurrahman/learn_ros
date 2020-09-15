@@ -24,6 +24,11 @@ command :
 
 `roslaunch mavros px4.launch fcu_url:="udp://:14540@192.168.1.36:14557"`
 
+How to make catkin package :
+`catkin_create_pkg offb std_msgs roscpp geometry_msgs mavros_msgs`
+1. `add_executable(${PROJECT_NAME}_node src/offb_node.cpp)`
+2. `target_link_libraries(${PROJECT_NAME}_node ${catkin_LIBRARIES})`
+
 Learning list of ROS :
 - [X] ROS Setup
 - [X] Create Workspace
